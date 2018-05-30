@@ -1,3 +1,4 @@
+/* redid this section to start as mobile and tablet */
 body {
     margin: 0;
     background-image: url("../images/Circuit.jpeg")
@@ -180,16 +181,14 @@ input[type=submit]:hover {
     float: right;
 }
 
-/* Mobile Responsive */
+/* added this section to set breakpoint after mobile and tablet size */
 
-@media screen and (min-width:640px) {
+@media screen and (min-width:768px) {
     section {
         margin: 100px 150px;
         padding: 20px;
         width: 68%;
         border: 2px solid #dddddd;
-        min-width: 689px;
-        min-height: 866px;
     }
 
     nav {
@@ -280,15 +279,13 @@ input[type=submit]:hover {
     }
 }
 
-@media screen and (min-width:768px) {
-    
-}
-
+/* this setting was not needed as all sizing above tablet is done by %
 @media screen and (min-width:980px) {
     
 }
+*/
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:768px) {
     #links {
         transform: rotate(180deg)
     }
