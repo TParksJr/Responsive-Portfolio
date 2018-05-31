@@ -189,6 +189,7 @@ input[type=submit]:hover {
         padding: 20px;
         width: 68%;
         border: 2px solid #dddddd;
+        min-height: 900px;
     }
 
     nav {
@@ -276,6 +277,14 @@ input[type=submit]:hover {
 
     .column img {
         margin: 50px 50px 50px 50px
+    }
+
+    #profilepic {
+
+    }
+
+    #cat {
+        
     }
 }
 
